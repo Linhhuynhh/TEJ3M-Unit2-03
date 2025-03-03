@@ -4,9 +4,9 @@
   
   Turn on the LED for one second, then turn off for one second, repeatedly.
 */
- 
-int blinkTime = 1000; //set variable to 1000
+
 const int pin5 = 5;
+int blinkTime = 1000; //set variable to 1000
 
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
